@@ -1,0 +1,18 @@
+#orders-list .key-datatable-detail-row form .for-columns.custom-fields div.field-item {
+    padding: 4px;
+}
+
+#orders-list .key-datatable-detail-row form .for-columns.custom-fields div.field-item > .label {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+#orders-list .key-datatable-detail-row form .for-columns.custom-fields div.field-item > a {
+    margin-left: 6px;
+}
+
+#orders-list .key-datatable-detail-row form .for-columns.custom-fields div.field-item:not(:has(i.keycrm-plus)) {
+    border: solid 1px #d7d5d5;
+    background-color: #71fd4cab;
+}
